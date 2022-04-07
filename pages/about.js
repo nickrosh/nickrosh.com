@@ -6,7 +6,6 @@ import { parseISO, format, intervalToDuration } from 'date-fns'
 import Base from '../layouts/Base'
 import { ButtonPrimary } from '../components/ButtonPrimary'
 import { ButtonPrimaryIcon } from '../components/ButtonPrimaryIcon'
-import Pronunciation from '../components/Pronunciation'
 import stripHtml from '../lib/strip-html'
 import items from '../data/about'
 
@@ -49,7 +48,6 @@ function About(props) {
             }}
           >
             <strong>Hey, I'm Zeno Rocha</strong>
-            <Pronunciation />
             I started as a software engineer back in 2009, working with Flash.
           </Paragraph>
           <Paragraph>

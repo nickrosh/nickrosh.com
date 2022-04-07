@@ -11,11 +11,11 @@ export default function Navbar() {
     'About',
     'Articles',
     'Projects',
-    'Talks',
-    'Podcasts',
-    'Investing',
-    'Uses',
-    'Reminder',
+    // 'Talks',
+    // 'Podcasts',
+    // 'Investing',
+    // 'Uses',
+    // 'Reminder',
   ]
   const [hovered, setHovered] = useState('')
   const { query } = useKBar()
@@ -24,7 +24,7 @@ export default function Navbar() {
     <AnimateSharedLayout>
       <Header>
         <Link href="/" passHref>
-          <ButtonLogo as="a">z</ButtonLogo>
+          <ButtonLogo as="a">N</ButtonLogo>
         </Link>
 
         <Nav>
@@ -67,7 +67,7 @@ export default function Navbar() {
           </List>
         </Nav>
 
-        <Aside>
+        {/* <Aside>
           <ButtonHeader
             as="button"
             type="button"
@@ -77,7 +77,7 @@ export default function Navbar() {
           >
             <Icon className="ri-command-line" />
           </ButtonHeader>
-        </Aside>
+        </Aside> */}
       </Header>
     </AnimateSharedLayout>
   )

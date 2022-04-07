@@ -2,15 +2,14 @@ import { styled } from '../stitches.config'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ShortcutHome from '../components/ShortcutHome'
 import { PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
 
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Zeno Rocha',
-      description: 'Building world-class products that make developers happy',
+      title: 'Nick Roshdieh',
+      description: 'Building Products with Machine Learning and Distributed Backend Systems',
       image: '/static/images/home-bw.jpg',
     },
   }
@@ -37,10 +36,9 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>VP of Developer Experience at WorkOS</strong>.<br />
+                <strong>Software Engineer</strong>.<br />
                 {description}.
               </p>
-              <ShortcutHome />
             </div>
           </PostContainer>
         </PostContent>

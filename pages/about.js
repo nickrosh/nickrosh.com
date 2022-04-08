@@ -15,7 +15,7 @@ export async function getStaticProps() {
     description:
       "Nick Roshdieh is a Software Engineer focused on Machine Learning and Backend Systems",
     tagline: 'Nice to Meet You',
-    image: '/static/images/about-bw.jpg',
+    image: '/static/images/code.jpg',
     primaryColor: 'purple',
     secondaryColor: 'cyan',
   }

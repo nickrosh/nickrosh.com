@@ -10,7 +10,7 @@ export async function getStaticProps() {
     props: {
       title: 'Nick Roshdieh',
       description: 'Building Products with Machine Learning and Distributed Backend Systems',
-      image: '/static/images/home-bw.jpg',
+      image: '/static/images/code.jpg',
     },
   }
 }
@@ -36,7 +36,7 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Software Engineer</strong>.<br />
+                <strong>Software TEST Engineer</strong>.<br />
                 {description}.
               </p>
             </div>

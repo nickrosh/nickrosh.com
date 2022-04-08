@@ -48,14 +48,17 @@ function About(props) {
             }}
           >
             <strong>Hey, I'm Nick Roshdieh. </strong>
-             I've started writing software in 2012 and never looked back
+             I started writing software in 2012 and never looked back. I love
+             building products that make people happier, and freeing them to do 
+              the things<strong> they want to do.</strong>
           </Paragraph>
           <Paragraph>
-            I'm currently doing <strong>Machine Learning Engineering</strong> at
-            Clark Constrcution. Though I love learning and working in all the parts of
-            software though. While my expertise is in <strong>ML and Backend 
-              Engineering</strong>, I've also implemented<strong> DevOps
-                </strong> best practices and the occasional React Component
+            I'm currently a <strong>Machine Learning Engineer</strong> at
+            Clark Construction, bringing cutting edge models to an industry
+            that is ripe for the change that technology brings. I love learning
+             and working in all the parts of the tech stack. While my expertise 
+             is in <strong>ML and Backend </strong>, I've also handled deployments
+             and implemented<strong> DevOps</strong> best practices and React UI
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.

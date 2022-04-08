@@ -13,8 +13,8 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Nick Roshdieh',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
-    tagline: 'Hi, Nice to Meet You',
+      "Nick Roshdieh is a Software Engineer focused on Machine Learning and Backend Systems",
+    tagline: 'Nice to Meet You',
     image: '/static/images/about-bw.jpg',
     primaryColor: 'purple',
     secondaryColor: 'cyan',
@@ -31,8 +31,8 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            alt="Nick"
+            src="/static/images/clark_headshot_cropped_bw.JPG"
             width="336"
             height="336"
             placeholder="blur"
@@ -47,20 +47,19 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
-            I started as a software engineer back in 2009, working with Flash.
+            <strong>Hey, I'm Nick Roshdieh. </strong>
+             I've started writing software in 2012 and never looked back
           </Paragraph>
           <Paragraph>
-            I'm currently the <strong>VP of Developer Experience</strong> at
-            WorkOS. Before that, I was the CPO at Liferay Cloud. I'm originally
-            from Brazil and now living in{' '}
-            <strong>Los Angeles, California</strong> with my amazing wife and
-            beautiful daughter.
+            I'm currently doing <strong>Machine Learning Engineering</strong> at
+            Clark Constrcution. Though I love learning and working in all the parts of
+            software though. While my expertise is in <strong>ML and Backend 
+              Engineering</strong>, I've also implemented<strong> DevOps
+                </strong> best practices and the occasional React Component
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.
-            When I'm not working, I like running, watching movies, and{' '}
-            <strong>eating cheese</strong>.
+            When I'm not working, you'll probably catch me <strong>playing music.</strong>
           </Paragraph>
         </Section>
       </Container>
@@ -155,14 +154,14 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/about" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://nickrosh.com/about" property="og:url" />
+        <meta content={`https://nickrosh.com${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}
 
-      <h2>Bio</h2>
-      {renderBio()}
+      {/* <h2>Tech Stack</h2>
+      {renderBio()} */}
 
       <h2>Career</h2>
       {renderAll()}

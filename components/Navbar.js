@@ -9,8 +9,8 @@ export default function Navbar() {
   const router = useRouter()
   const pages = [
     'About',
-    'Articles',
-    'Projects',
+    // 'Articles',
+    // 'Projects',
     // 'Talks',
     // 'Podcasts',
     // 'Investing',
@@ -29,8 +29,8 @@ export default function Navbar() {
           style={{
             background: `linear-gradient(
             135deg,
-            var(--colors-yellow) 0%,
-            var(--colors-pink) 100%
+            var(--colors-green) 0%,
+            var(--colors-purple) 100%
           )`,
             "background-size": "100",
             "-webkit-background-clip": "text",

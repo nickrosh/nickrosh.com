@@ -10,7 +10,7 @@ import items from '../data/projects'
 export async function getStaticProps() {
   const meta = {
     title: 'Projects // Nick Roshdieh',
-    tagline: 'Work. Hobby. Open Source.',
+    tagline: 'Projects and Open Source',
     image: '/static/images/projects-bw.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',

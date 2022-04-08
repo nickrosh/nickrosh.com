@@ -24,7 +24,23 @@ export default function Navbar() {
     <AnimateSharedLayout>
       <Header>
         <Link href="/" passHref>
-          <ButtonLogo as="a">N</ButtonLogo>
+          <ButtonLogo as="a"
+
+          style={{
+            background: `linear-gradient(
+            135deg,
+            var(--colors-yellow) 0%,
+            var(--colors-pink) 100%
+          )`,
+            "background-size": "100",
+            "-webkit-background-clip": "text",
+            "-moz-background-clip": "text",
+            "-webkit-text-fill-color": "transparent",
+            "-moz-text-fill-color": "transparent",
+          }}
+          >
+            nick
+          </ButtonLogo>
         </Link>
 
         <Nav>

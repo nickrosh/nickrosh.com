@@ -27,8 +27,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: 'Articles // Zeno Rocha',
-      tagline: 'Stories. Updates. Guides.',
+      title: 'Articles // Nick Roshdieh',
+      tagline: 'General Musings',
       image: '/static/images/articles-bw.jpg',
       primaryColor: 'yellow',
       secondaryColor: 'pink',

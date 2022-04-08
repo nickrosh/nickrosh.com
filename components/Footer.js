@@ -4,29 +4,29 @@ export default function Footer() {
   const links = [
     {
       title: 'Source',
-      url: 'https://github.com/zenorocha/zenorocha.com',
+      url: 'https://github.com/nickrosh/nickrosh.com',
       icon: 'ri-braces-line',
     },
-    {
-      title: 'Twitter',
-      url: 'https://twitter.com/zenorocha',
-      icon: 'ri-twitter-line',
-    },
+    // {
+    //   title: 'Twitter',
+    //   url: 'https://twitter.com/zenorocha',
+    //   icon: 'ri-twitter-line',
+    // },
     {
       title: 'GitHub',
-      url: 'https://github.com/zenorocha',
+      url: 'https://github.com/nickrosh',
       icon: 'ri-github-line',
     },
     {
       title: 'linkedin',
-      url: 'https://linkedin.com/in/zenorocha',
+      url: 'https://linkedin.com/in/nick-roshdieh',
       icon: 'ri-linkedin-line',
     },
-    {
-      title: 'Instagram',
-      url: 'https://instagram.com/zenorocha',
-      icon: 'ri-instagram-line',
-    },
+    // {
+    //   title: 'Instagram',
+    //   url: 'https://instagram.com/zenorocha',
+    //   icon: 'ri-instagram-line',
+    // },
   ]
 
   return (

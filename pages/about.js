@@ -11,13 +11,13 @@ import items from '../data/about'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
+    title: 'About // Nick Roshdieh',
     description:
       "Zeno Rocha is a Brazilian creator and programmer. He currently lives in Los Angeles, California, where he's the VP of Developer Experience at WorkOS. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
-    tagline: 'Create. Share. Repeat.',
+    tagline: 'Hi, Nice to Meet You',
     image: '/static/images/about-bw.jpg',
-    primaryColor: 'pink',
-    secondaryColor: 'purple',
+    primaryColor: 'purple',
+    secondaryColor: 'cyan',
   }
 
   return { props: meta }

@@ -25,8 +25,8 @@ export default function Index(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://zenorocha.com" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://nickrosh.com" property="og:url" />
+        <meta content={`https://nickrosh.com${image}`} property="og:image" />
       </Head>
 
       <Navbar />
@@ -36,7 +36,7 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Software TEST Engineer</strong>.<br />
+                <strong>Software Engineer</strong>.<br />
                 {description}.
               </p>
             </div>

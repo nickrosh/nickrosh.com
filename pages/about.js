@@ -13,7 +13,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Nick Roshdieh',
     description:
-      "Nick Roshdieh is a Software Engineer focused on Machine Learning and Backend Systems",
+      "Nick Roshdieh is a Software Engineer focused on MLE and performant systems",
     tagline: 'Nice to Meet You',
     image: '/static/images/code.jpg',
     primaryColor: 'purple',
@@ -55,10 +55,11 @@ function About(props) {
           <Paragraph>
             I'm currently a <strong>Machine Learning Engineer</strong> at
             Clark Construction, bringing cutting edge models to an industry
-            that is ripe for the change that technology brings. I love learning
-             and working in all the parts of the tech stack. While my expertise 
-             is in <strong>ML and Backend </strong>, I've also handled deployments
-             and implemented<strong> DevOps</strong> best practices and React UI
+            that's ripe for change. I love learning and working in all the parts
+             of the tech stack. While my expertise is in <strong>ML and Backend
+             </strong>, I've also handled deployments and implemented <strong> 
+               DevOps</strong> best practices, as well as the occasional
+                <strong> React</strong> UI
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.

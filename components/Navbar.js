@@ -1,9 +1,11 @@
 import { styled } from '../stitches.config'
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { motion, AnimateSharedLayout } from 'framer-motion'
 import { useKBar } from 'kbar'
+
 
 export default function Navbar() {
   const router = useRouter()
@@ -24,23 +26,14 @@ export default function Navbar() {
     <AnimateSharedLayout>
       <Header>
         <Link href="/" passHref>
-          <ButtonLogo as="a"
-
-          style={{
-            background: `linear-gradient(
-            135deg,
-            var(--colors-green) 0%,
-            var(--colors-purple) 100%
-          )`,
-            "background-size": "100",
-            "-webkit-background-clip": "text",
-            "-moz-background-clip": "text",
-            "-webkit-text-fill-color": "transparent",
-            "-moz-text-fill-color": "transparent",
-          }}
+          <ButtonHeader
+            as="a"
+            type="button"
+            aria-label="Command"
+            css={{ padding: '10px 10px', marginLeft: '12px' }}
           >
-            nick
-          </ButtonLogo>
+            <Image src="/forall_circle_white_cropped.svg" alt='forall-symbol' height={40} width={40} />
+          </ButtonHeader>
         </Link>
 
         <Nav>

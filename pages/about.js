@@ -79,7 +79,7 @@ function About(props) {
         </IconContainer>
           <span> </span> Languages</h3>
         <p>
-          Python, Javascript, C, SQL, a little French, learning Go
+          Python, Javascript, Typescript, C, SQL, a little French, learning Go
         </p>
         <h3>
         <IconContainer>

@@ -9,7 +9,7 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'Nick Roshdieh',
-      description: 'Building Data-Intensive Products with Machine Learning',
+      description: 'Building Data-Intensive Apps with Machine Learning',
       image: '/static/images/code.jpg',
     },
   }

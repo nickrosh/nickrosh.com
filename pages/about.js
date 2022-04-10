@@ -49,7 +49,7 @@ function About(props) {
           >
             <strong>Hey, I'm Nick Roshdieh. </strong>
              I started writing software in 2012 and never looked back. I love
-             building products that make people happier, and freeing them to do 
+             building products that make people happier, and that free them to do 
               the things<strong> they want to do.</strong>
           </Paragraph>
           <Paragraph>
@@ -73,19 +73,14 @@ function About(props) {
   const renderBio = () => {
     return (
       <div>
+        <IconContainer>
+          <i className={`ri-command-line`} />
+        </IconContainer>
         <p>
           This is made for journalists, podcast hosts, and event organizers to
           copy-and-paste.
         </p>
-        <blockquote>
-          <p>{description}</p>
-        </blockquote>
         <p>
-          <ButtonPrimary as="button" onClick={copyBio}>
-            <ButtonPrimaryIcon className="ri-file-copy-line" /> Copy to
-            Clipboard
-          </ButtonPrimary>
-          <span style={{ margin: '0 20px 0 10px' }}>•</span>
           <ButtonPrimary
             as="a"
             download
@@ -93,7 +88,7 @@ function About(props) {
             href="/static/images/zeno.png"
           >
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
-            Headshot
+            Resume
           </ButtonPrimary>
         </p>
       </div>
@@ -164,8 +159,8 @@ function About(props) {
 
       {renderIntro()}
 
-      {/* <h2>Tech Stack</h2>
-      {renderBio()} */}
+      <h2>Tech Stack</h2>
+      {renderBio()}
 
       <h2>Career</h2>
       {renderAll()}
@@ -188,6 +183,12 @@ const Section = styled('div', {
   marginTop: '0px',
   width: 'auto',
   '@bp2': { width: '48%' },
+})
+
+const IconContainer = styled('div', {
+  color: '$primary',
+  fontSize: '24px',
+  padding: '0 10px 0 0',
 })
 
 About.Layout = Base

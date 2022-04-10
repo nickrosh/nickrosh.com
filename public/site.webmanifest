@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Nick Roshdieh's Personal Website",
+    "short_name": "Nick Roshdieh's Site",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#08070b",
+    "background_color": "#08070b",
     "display": "standalone"
 }

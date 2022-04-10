@@ -77,7 +77,7 @@ function About(props) {
         <IconContainer>
           <i className={`ri-code-line`} />
         </IconContainer>
-          <span> </span> Languages</h3>
+          Languages</h3>
         <p>
           Python, Javascript, Typescript, C, SQL, a little French, learning Go
         </p>
@@ -85,7 +85,7 @@ function About(props) {
         <IconContainer>
           <i className={`ri-terminal-box-line`} />
         </IconContainer>
-          <span> </span> Frameworks</h3>
+          Frameworks</h3>
         <p>
           PyData (Pandas, Numpy, Matplotlib), Tensorflow, Django, FastAPI, Flask, NodeJS,
            React, Express
@@ -94,7 +94,7 @@ function About(props) {
         <IconContainer>
           <i className={`ri-database-2-line`} />
         </IconContainer>
-          <span> </span> Databases</h3>
+          Databases</h3>
         <p>
           Postgres, MySQL, MongoDB, Snowflake
         </p>
@@ -102,7 +102,7 @@ function About(props) {
         <IconContainer>
           <i className={`ri-tools-line`} />
         </IconContainer>
-          <span> </span> Tools & Cloud</h3>
+          Tools & Cloud</h3>
         <p>
           Git, VSCode, Jupyter Notebooks, Docker, AWS, Google Cloud
         </p>

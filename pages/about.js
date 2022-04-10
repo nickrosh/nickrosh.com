@@ -57,9 +57,9 @@ function About(props) {
             Clark Construction, bringing cutting edge models to an industry
             that's ripe for change. I love learning and working in all the parts
              of the tech stack. While my expertise is in <strong>ML and Backend
-             </strong>, I've also handled deployments and implemented <strong> 
-               DevOps</strong> best practices, as well as the occasional
-                <strong> React</strong> UI
+             </strong>, I've also handled all of my team's AWS deployments and 
+             implemented <strong> DevOps</strong> best practices, as well as the
+              occasional<strong> React</strong> UI
           </Paragraph>
           <Paragraph>
             <strong>I love dark mode</strong>, open source, and side projects.
@@ -73,19 +73,45 @@ function About(props) {
   const renderBio = () => {
     return (
       <div>
+        <h3>
         <IconContainer>
-          <i className={`ri-command-line`} />
+          <i className={`ri-code-line`} />
         </IconContainer>
+          <span> </span> Languages</h3>
         <p>
-          This is made for journalists, podcast hosts, and event organizers to
-          copy-and-paste.
+          Python, Javascript, C, SQL, a little French, learning Go
+        </p>
+        <h3>
+        <IconContainer>
+          <i className={`ri-terminal-box-line`} />
+        </IconContainer>
+          <span> </span> Frameworks</h3>
+        <p>
+          PyData (Pandas, Numpy, Matplotlib), Tensorflow, Django, FastAPI, Flask, NodeJS,
+           React, Express
+        </p>
+        <h3>
+        <IconContainer>
+          <i className={`ri-database-2-line`} />
+        </IconContainer>
+          <span> </span> Databases</h3>
+        <p>
+          Postgres, MySQL, MongoDB, Snowflake
+        </p>
+        <h3>
+        <IconContainer>
+          <i className={`ri-tools-line`} />
+        </IconContainer>
+          <span> </span> Tools & Cloud</h3>
+        <p>
+          Git, VSCode, Jupyter Notebooks, Docker, AWS, Google Cloud
         </p>
         <p>
           <ButtonPrimary
             as="a"
             download
             role="button"
-            href="/static/images/zeno.png"
+            href="/static/images/code.jpg"
           >
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
             Resume

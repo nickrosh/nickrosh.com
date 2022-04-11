@@ -1,6 +1,6 @@
 ---
-title: How I made my IoT Business Card
-description: "My business card harvests power in the air transimetted by phones, and sends a link to this site with NFC technology. Here's how I did it."
+title: How I made my NFC Business Card
+description: "My business card harvests power in the air transmitted by phones, and sends a link to this site with NFC technology. Here's how I did it."
 image: /static/img/posts/100-talks-1.jpg
 date: "2022-02-10"
 ---

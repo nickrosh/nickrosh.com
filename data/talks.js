@@ -364,7 +364,7 @@ const items = [
         url: 'https://2016.nejsconf.com/',
         date: '2016-08-26',
         where: 'Omaha, NE - USA',
-        cover: '/static/images/talk-nejs.jpg',
+        cover: '/static/images/code.jpg',
         attendees: '≈200',
         stats: '2k+ views',
         presentations: [
@@ -473,7 +473,7 @@ const items = [
         title: 'Nordic.JS',
         url: 'https://nordicjs.com/2015',
         date: '2015-09-10',
-        cover: '/static/images/talk-nordicjs.jpg',
+        cover: '/static/images/code.jpg',
         where: 'Stockholm - Sweden',
         stats: '9k+ views',
         attendees: '≈300',
@@ -789,7 +789,7 @@ const items = [
       {
         title: 'SFHTML5',
         url: 'https://www.meetup.com/sfhtml5/events/169452272/',
-        cover: '/static/images/talk-sfhtml5.jpg',
+        cover: '/static/images/code.jpg',
         date: '2014-04-30',
         where: 'San Francisco, CA - USA',
         attendees: '≈700',

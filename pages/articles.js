@@ -73,7 +73,8 @@ function Articles(props) {
   }
 
   const { title, image } = props
-  const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about Software Development, Machine Learning, Hardware, and other thoughts I'm having.`
+  // const description = `Here you can find all the <strong>${props.allPosts.length} articles</strong> I wrote. You can read about Software Development, Machine Learning, Hardware, and other thoughts I'm having.`
+  const description = `Here you can find all the articles I wrote. You can read about Software Development, Machine Learning, Hardware, and other thoughts I'm having.`
 
   return (
     <>

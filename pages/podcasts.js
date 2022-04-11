@@ -8,7 +8,7 @@ import { AnimateSharedLayout } from 'framer-motion'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Podcasts // Zeno Rocha',
+    title: 'Podcasts // Nick Roshdieh',
     tagline: 'Ideas. Thoughts. Opinions.',
     image: '/static/images/podcasts-bw.jpg',
     primaryColor: 'pink',

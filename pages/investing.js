@@ -8,7 +8,7 @@ import investments from '../data/investments'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Investing // Zeno Rocha',
+    title: 'Investing // Nick Roshdieh',
     description:
       "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and <strong>build world-class products</strong>.",
     tagline: 'DevTools. B2B. SaaS.',

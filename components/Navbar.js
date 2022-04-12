@@ -12,7 +12,7 @@ export default function Navbar() {
   const pages = [
     'About',
     'Articles',
-    // 'Projects',
+    'Projects',
     // 'Talks',
     // 'Podcasts',
     // 'Investing',

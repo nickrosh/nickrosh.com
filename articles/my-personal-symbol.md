@@ -1,7 +1,7 @@
 ---
 title: My Personal Symbol
 description: "Around the time I was 19, I decided on using a symbol I learned of in Differential Calculus as my personal mark."
-image: /static/images/code.jpg
+image: /static/images/simple.jpg
 date: "2022-03-17"
 ---
 
@@ -17,4 +17,4 @@ This means, for all values of x in the the set of all Real numbers...
 
 ## The Meaning
 
-I take this symbol a bit more philosophically. I pursued this career of technology not just because of my love of science and engineering, but also out of a desire to make applications and products that make the world a better place. At the risk of sounding melodramatic, we leave this world with the products of our work and the impact we've made on other people. Given that fact, I see no better use of our efforts than to help each other and make the world a better place for all. To do things that benefit at least one person, and hopefully everyone.
+I take this symbol a bit more philosophically. I pursued this career of technology not just because of my love of science and engineering, but also out of a desire to make applications and products that make the world a better place. At the risk of sounding melodramatic, after we're gone all that is left behind is the products of our work and the impact we've made on other people. Given that fact, I see no better use of our efforts than to help each other and make the world a better place for all. To do things that benefit at least one person, and hopefully everyone. For All.

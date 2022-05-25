@@ -111,7 +111,7 @@ function About(props) {
             as="a"
             download
             role="button"
-            href="/static/images/code.jpg"
+            href="/static/images/Nick_Roshdieh_MLE_REDACTED_5-25-22.pdf"
           >
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
             Resume

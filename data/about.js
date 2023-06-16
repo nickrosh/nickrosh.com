@@ -1,6 +1,6 @@
 const items = [
   {
-    jobTitle: 'Data Scientist - ML Engineering',
+    jobTitle: 'Senior Machine Learninig Engineer',
     company: 'Clark Construction',
     companyUrl: 'https://www.clarkconstruction.com/',
     startDate: '2020-02-01',

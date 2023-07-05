@@ -13,7 +13,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Nick Roshdieh',
     description:
-      "Nick Roshdieh is a Software Engineer focused on MLE and performant systems",
+      "Nick Roshdieh is a Machine Learning Engineer focused on building performant systems",
     tagline: 'Nice to Meet You',
     image: '/static/images/code.jpg',
     primaryColor: 'purple',
@@ -47,23 +47,21 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Nick Roshdieh. </strong>
-             I started writing software in 2012 and never looked back. I love
-             building products that make people happier, and that free them to do 
-              the things<strong> they want to do.</strong>
+            <strong>Hi, I'm Nick Roshdieh. </strong>
+             I wanted to become an engineer to build real products that would make
+             the world a better place. Modern Machine Learning has caused the biggest
+             forward jump in human technology in decades. I hope to be a part of the 
+             tide, and develop AI that changes society for the better.
           </Paragraph>
           <Paragraph>
             I'm currently a <strong>Machine Learning Engineer</strong> at
-            Clark Construction, bringing cutting edge models to an industry
-            that's ripe for change. I love learning and working in all the parts
-             of the tech stack. While my expertise is in <strong>ML and Backend
-             </strong>, I've also handled all of my team's AWS deployments and 
-             implemented <strong> DevOps</strong> best practices, as well as the
-              occasional<strong> React</strong> UI
+            Clark, developing and deploying large language models. I have always
+            had a love of learning, and I've starting making notes on everything
+            I know in computing from Electrical Engineering to AI. My notes are over
+            130,000 now and continually growing! I hope it be of benefit to people.
           </Paragraph>
           <Paragraph>
-            <strong>I love dark mode</strong>, open source, and side projects.
-            When I'm not working, you'll probably catch me <strong>playing music.</strong>
+            I love playing music and I have strong Maryland & DC pride!
           </Paragraph>
         </Section>
       </Container>
@@ -79,7 +77,7 @@ function About(props) {
         </IconContainer>
           Languages</h3>
         <p>
-          Python, Javascript, Typescript, C, SQL, a little French, learning Go
+          Python, Javascript, Typescript, C, C++, SQL
         </p>
         <h3>
         <IconContainer>
@@ -87,7 +85,7 @@ function About(props) {
         </IconContainer>
           Frameworks</h3>
         <p>
-          PyData (Pandas, Numpy, Matplotlib), Tensorflow, Django, FastAPI, Flask, NodeJS,
+          PyData (Pandas, Numpy, Matplotlib), PyTorch, HuggingFace, Django, FastAPI, Flask, NodeJS,
            React, Express
         </p>
         <h3>

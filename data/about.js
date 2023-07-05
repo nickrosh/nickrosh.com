@@ -1,7 +1,7 @@
 const items = [
   {
     jobTitle: 'Senior Machine Learning Engineer',
-    company: 'Clark Construction',
+    company: 'Clark Group',
     companyUrl: 'https://www.clarkconstruction.com/',
     startDate: '2020-02-01',
     location: 'Bethesda, Maryland',

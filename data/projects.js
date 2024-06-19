@@ -4,8 +4,9 @@ const items = [
     projects: [
       {
         title: 'Evol-Teacher',
+        description: 'Open Source WizardCoder Dataset',
         url: 'https://github.com/nickrosh/evol-teacher',
-        icon: 'robot-2-line',
+        icon: 'robot-2',
         stats: '100+ stars',
         active: true,
       },
@@ -16,6 +17,7 @@ const items = [
     projects: [
       {
         title: 'Tech Notes',
+        description: 'My personal Wiki on most Tech subjects',
         url: 'https://github.com/nickrosh/Tech_Notes',
         icon: 'book-2',
         stats: '100k+ Words',

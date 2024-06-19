@@ -13,7 +13,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Nick Roshdieh',
     description:
-      "Nick Roshdieh is a Machine Learning Engineer focused on building performant systems",
+      "Nick Roshdieh is a MLE focused on building Language Models and Agents",
     tagline: 'Nice to Meet You',
     image: '/static/images/code.jpg',
     primaryColor: 'purple',
@@ -32,7 +32,7 @@ function About(props) {
         <Section>
           <Image
             alt="Nick"
-            src="/static/images/clark_headshot_cropped_bw.JPG"
+            src="/static/images/kensho_headshot_bw.JPG"
             width="336"
             height="336"
             placeholder="blur"
@@ -47,21 +47,21 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hi, I'm Nick Roshdieh. </strong>
-             I wanted to become an engineer to build real products that would make
-             the world a better place. Modern Machine Learning has caused the biggest
-             forward jump in human technology in decades. I hope to be a part of the 
-             tide, and develop AI that changes society for the better.
+            <strong>Hey, I'm Nick Roshdieh. </strong>
+             In 2016, I watched Lee Sedol lose to AlphaGo and I was hooked on the future of ML 
+             (Ghost in the Shell also helped). I want to
+             build products that make people happier, and that free them to do 
+              the things they want to do.
           </Paragraph>
           <Paragraph>
             I'm currently a <strong>Machine Learning Engineer</strong> at
-            Clark, developing and deploying large language models. I have always
-            had a love of learning, and I've starting making notes on everything
-            I know in computing from Electrical Engineering to AI. My notes are over
-            130,000 now and continually growing! I hope it be of benefit to people.
+            Kensho Technologies, fine tuning custom-built foundation models and
+             bringing agentic systems to production to solve human-level logical tasks
           </Paragraph>
           <Paragraph>
-            I love playing music and I have strong Maryland & DC pride!
+            I love music, open source, and side projects.
+            When I'm not working, you'll probably catch me trying to perfect a 
+            fried chicken recipe.
           </Paragraph>
         </Section>
       </Container>
@@ -85,8 +85,7 @@ function About(props) {
         </IconContainer>
           Frameworks</h3>
         <p>
-          PyData (Pandas, Numpy, Matplotlib), PyTorch, HuggingFace, Django, FastAPI, Flask, NodeJS,
-           React, Express
+          PyTorch, Huggingface, PyData (Pandas, Numpy, Matplotlib), Django, FastAPI, Flask, NodeJS,
         </p>
         <h3>
         <IconContainer>
@@ -94,7 +93,7 @@ function About(props) {
         </IconContainer>
           Databases</h3>
         <p>
-          Postgres, MySQL, MongoDB, Snowflake
+          Postgres, MySQL, MongoDB, Qdrant, Snowflake
         </p>
         <h3>
         <IconContainer>

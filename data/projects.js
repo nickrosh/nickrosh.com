@@ -5,7 +5,7 @@ const items = [
       {
         title: 'Evol-Teacher',
         url: 'https://github.com/nickrosh/evol-teacher',
-        icon: 'ri-robot-2-line',
+        icon: 'robot-2-line',
         stats: '100+ stars',
         active: true,
       },

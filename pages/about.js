@@ -103,7 +103,7 @@ function About(props) {
         <p>
           Git, VSCode, Jupyter Notebooks, Docker, AWS, Google Cloud
         </p>
-        <p>
+        {/* <p>
           <ButtonPrimary
             as="a"
             download
@@ -113,7 +113,7 @@ function About(props) {
             <ButtonPrimaryIcon className="ri-download-2-line" /> Download
             Resume
           </ButtonPrimary>
-        </p>
+        </p> */}
       </div>
     )
   }

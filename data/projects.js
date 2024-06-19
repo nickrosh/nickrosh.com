@@ -6,7 +6,7 @@ const items = [
         title: 'Evol-Teacher',
         description: 'Open Source WizardCoder Dataset',
         url: 'https://github.com/nickrosh/evol-teacher',
-        icon: 'ri-code-line',
+        icon: 'book-2',
         stats: '100+ stars',
         active: true,
       },

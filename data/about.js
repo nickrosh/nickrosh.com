@@ -15,7 +15,7 @@ const items = [
     location: 'Bethesda, Maryland',
   },
   {
-    jobTitle: 'Intern',
+    jobTitle: 'Research Intern',
     company: 'Intelligent Automation, Inc',
     companyUrl: 'https://www.i-a-i.com/',
     startDate: '2016-05-01',

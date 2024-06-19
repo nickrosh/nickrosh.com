@@ -77,7 +77,7 @@ function About(props) {
         </IconContainer>
           Languages</h3>
         <p>
-          Python, Javascript, Typescript, C, C++, SQL
+          Python, Javascript, Typescript, C/C++, SQL
         </p>
         <h3>
         <IconContainer>
@@ -85,7 +85,7 @@ function About(props) {
         </IconContainer>
           Frameworks</h3>
         <p>
-          PyTorch, Huggingface, PyData (Pandas, Numpy, Matplotlib), Django, FastAPI, Flask, NodeJS,
+          PyTorch, Huggingface, PyData (Pandas, Numpy, Matplotlib), Langchain, LlamaIndex, Django, FastAPI, Flask, NodeJS,
         </p>
         <h3>
         <IconContainer>

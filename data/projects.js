@@ -1,10 +1,24 @@
 const items = [
   {
+    year: '2023',
+    projects: [
+      {
+        title: 'Evol-Teacher',
+        url: 'https://github.com/nickrosh/evol-teacher',
+        icon: 'ri-robot-2-line',
+        stats: '100+ stars',
+        active: true,
+      },
+    ],
+  },
+  {
     year: '2022',
     projects: [
       {
-        title: 'WorkOS',
-        url: 'https://workos.com',
+        title: 'Tech Notes',
+        url: 'https://github.com/nickrosh/Tech_Notes',
+        icon: 'book-2',
+        stats: '100k+ Words',
         active: true,
       },
     ],
@@ -46,77 +60,6 @@ const items = [
         url: 'https://draculatheme.com/pro',
         icon: 'palette',
         stats: '$210k+ sales',
-        active: true,
-      },
-    ],
-  },
-  {
-    year: '2019',
-    projects: [
-      {
-        title: 'LeCheese',
-        description: 'Mobile app for cheese lovers',
-        url: 'https://lecheese.app',
-        icon: 'star',
-        stats: '18k+ downloads',
-        active: true,
-      },
-    ],
-  },
-  {
-    year: '2018',
-    projects: [
-      {
-        title: 'Liferay DXP Cloud',
-        url: 'https://www.liferay.com/products/dxp-cloud',
-        active: true,
-      },
-    ],
-  },
-  {
-    year: '2017',
-    projects: [
-      {
-        title: 'Liferay Community',
-        url: 'https://community.liferay.com/',
-        active: true,
-      },
-      {
-        title: 'CodeCopy',
-        url: 'https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg',
-        active: true,
-      },
-    ],
-  },
-  {
-    year: '2016',
-    projects: [
-      {
-        title: 'WeDeploy',
-        url: 'http://wedeploy.com',
-        active: false,
-      },
-      {
-        title: 'Browser Calories',
-        url: 'http://browserdiet.com/calories',
-        active: true,
-      },
-      {
-        title: 'DevSpace',
-        url: 'http://devspace.io',
-        active: false,
-      },
-    ],
-  },
-  {
-    year: '2015',
-    projects: [
-      {
-        title: 'Clipboard.js',
-        description: 'Library to copy text to clipboard',
-        url: 'http://clipboardjs.com/',
-        icon: 'clipboard',
-        stats: '31k+ stars',
         active: true,
       },
     ],

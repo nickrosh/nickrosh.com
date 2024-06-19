@@ -32,7 +32,7 @@ function About(props) {
         <Section>
           <Image
             alt="Nick"
-            src="/static/images/kensho_headshot_cropped_bw.JPG"
+            src="/static/images/kensho_headshot_cropped_bw.jpg"
             width="336"
             height="336"
             placeholder="blur"

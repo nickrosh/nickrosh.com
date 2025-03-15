@@ -1,6 +1,6 @@
 const items = [
   {
-    jobTitle: 'Machine Learning Engineer',
+    jobTitle: 'Senior ML Engineer',
     company: 'Kensho Technologies',
     companyUrl: 'https://kensho.com/',
     startDate: '2023-08-01',

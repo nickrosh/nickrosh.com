@@ -32,7 +32,7 @@ function About(props) {
         <Section>
           <Image
             alt="Nick"
-            src="/static/images/kensho_headshot_cropped_bw.jpg"
+            src="/static/images/tazheeb-cropped-bw-2-17-25.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -54,12 +54,13 @@ function About(props) {
               the things they want to do.
           </Paragraph>
           <Paragraph>
-            I'm currently a <strong>Machine Learning Engineer</strong> at
-            Kensho Technologies, fine tuning custom-built foundation models and
-             bringing agentic systems to production to solve human-level logical tasks
+            I'm currently a <strong>Senior Machine Learning Engineer</strong> at
+            Kensho Technologies, owned by S&P Global, leading our agent  
+            development and bringing the promise of full agentic workflows to the 
+            financial sector.
           </Paragraph>
           <Paragraph>
-            I love music, open source, and side projects.
+            I love music, open source, and poetry.
             When I'm not working, you'll probably catch me trying to perfect a 
             fried chicken recipe.
           </Paragraph>
